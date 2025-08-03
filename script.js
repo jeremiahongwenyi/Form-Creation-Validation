@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         messages.push('Username must have a minimum of 3 characters')
     }
 
-    if (!email.includes(/[@.]/)) {
+    if (!email.includes('@')) {
         isValid = false;
         messages.push("Enter a valid email")
     }
